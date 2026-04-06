@@ -10,7 +10,7 @@ A Python web app for tracking workouts, nutrition, and body weight, with interac
 - Muscle group distribution
 - Filter recent data
 - Edit and delete entries
-- Insight system to highlight patterns:
+- Insight system to highlight patterns(In progress):
   - Low protein intake
   - Calorie surplus/deficit
   - Workout imbalances
