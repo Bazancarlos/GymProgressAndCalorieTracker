@@ -548,11 +548,3 @@ elif page == "Manage Data":
                     overwrite_csv(WEIGHTS_FILE, original_df)
                     st.success("Weight entry deleted.")
                     st.rerun()
-
-
-elif page == "Insights":
-    st.subheader("AI-Style Insights")
-    insights = generate_insights(meals_df, workouts_df, weights_df)
-
-    for insight in insights:
-        st.info(insight)
